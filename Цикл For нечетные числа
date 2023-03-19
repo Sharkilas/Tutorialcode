@@ -1,0 +1,3 @@
+const myArray = [];
+for (let n = 1; n < 10; n += 2) {
+myArray.push(n);}
