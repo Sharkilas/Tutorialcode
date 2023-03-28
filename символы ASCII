@@ -1,0 +1,14 @@
+function uniTotal (string) {
+let total = 0;
+  if (string == "") {
+  return total = 0
+}
+   if (string != "") {
+  for (let i=0; i<string.length; i++){
+ let code = string.charCodeAt(i);
+  
+total = total + code;}
+  return total
+}
+  // total up dem unicodes!
+}
