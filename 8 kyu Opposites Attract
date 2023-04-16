@@ -1,0 +1,8 @@
+function lovefunc(flower1, flower2){
+ let c = flower1 %2;
+  let b = flower2 %2;
+  if (c != b)
+   {return true}
+  else 
+    {return false}// moment of truth
+}
